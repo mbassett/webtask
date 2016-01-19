@@ -13,7 +13,7 @@ function file_exist(path) {
 
 
 function nmap_callback() {
-  cmd = 'cat /data/io/nmap.log';
+  cmd = 'cat /data/io/nmap-3.log';
   execsync(cmd, {stdio:[0,1,2]});
 }
 
@@ -37,7 +37,7 @@ module.exports = function (context, cb) {
 
     if (target_exists) {
         // if we do this as a blocking task the webtask controls will kill the long running process, so we'll do it non blocking and read the log via callback
-        cmd = 'cd /data/io/ && ./nmap -vv -Pn -sT '+ context.data.target + ' -p' + context.data.ports + ' > /data/io/nmap.log 2>&1';
+        cmd = 'cd /data/io/ && ./nmap -vv -Pn -sT '+ context.data.target + ' -p' + context.data.ports + ' > /data/io/nmap-3.log 2>&1';
         console.log('launching ' + cmd);
         exec(cmd, nmap_callback);
     }

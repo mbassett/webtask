@@ -9,7 +9,7 @@ keepaliveurl = 'https://webtask.it.auth0.com/api/run/wt-mbassett_jr-gmail_com-0/
 def tickle(url):
     print 'making request to {}'.format(url)
     r = requests.get(url)
-    time.sleep( 25 )
+    time.sleep( 20 )
     tickle(url)
 
 if __name__ == "__main__":

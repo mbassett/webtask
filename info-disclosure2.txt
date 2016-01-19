@@ -87,3 +87,270 @@ OpenSSL v1.0.0 is used in Node.js v0.10.x and v0.12.x. OpenSSL v1.0.2 is used in
     Versions 5.x of Node.js are vulnerable, please upgrade to v5.1.1 (Stable).
 
 Note: Node.js users are not considered vulnerable to the two additional announced OpenSSL vulnerabilities: CVE-2015-3195 "X509_ATTRIBUTE memory leak" and CVE-2015-3196 "Race condition handling PSK identify hint". However, fixes for these bugs are included with the new versions of OpenSSL bundled with the newly patched versions of Node.js.
+
+
+
+    Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 13:42 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Nmap scan report for ec2-107-20-188-61.compute-1.amazonaws.com (107.20.188.61)
+    Host is up (0.069s latency).
+    Not shown: 65533 filtered ports
+    PORT     STATE SERVICE
+    22/tcp   open  ssh
+    8721/tcp open  unknown
+
+    Nmap done: 1 IP address (1 host up) scanned in 429.98 seconds
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 14:06 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Nmap scan report for ec2-177-71-160-151.sa-east-1.compute.amazonaws.com (177.71.160.151)     ##dev.auth0.com  cert
+    Host is up (0.19s latency).
+    Not shown: 65530 filtered ports
+    PORT      STATE SERVICE
+    22/tcp    open  ssh
+    80/tcp    open  http
+    443/tcp   open  https
+    5672/tcp  open  amqp
+    27017/tcp open  unknown                                                   ##mongodb! 2.6.11 requires auth
+
+    Nmap done: 1 IP address (1 host up) scanned in 249.52 seconds
+
+    Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 14:12 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Nmap scan report for ec2-52-16-142-128.eu-west-1.compute.amazonaws.com (52.16.142.128)
+    Host is up (0.14s latency).
+    Not shown: 65534 filtered ports
+    PORT   STATE SERVICE
+    22/tcp open  ssh
+
+    Nmap done: 1 IP address (1 host up) scanned in 325.78 seconds
+
+    Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 14:59 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Nmap scan report for ec2-52-8-12-98.us-west-1.compute.amazonaws.com (52.8.12.98)
+    Host is up (0.0011s latency).
+    Not shown: 65533 filtered ports
+    PORT    STATE SERVICE
+    443/tcp open  https
+    943/tcp open  unknown
+
+    Nmap done: 1 IP address (1 host up) scanned in 202.00 seconds
+
+  Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 15:05 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Nmap scan report for ec2-54-193-6-52.us-west-1.compute.amazonaws.com (54.193.6.52)
+    Host is up (0.00093s latency).
+    Not shown: 65532 filtered ports
+    PORT    STATE  SERVICE
+    22/tcp  open   ssh
+    80/tcp  closed http
+    443/tcp closed https
+
+    Nmap done: 1 IP address (1 host up) scanned in 202.71 seconds
+
+   Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 15:32 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Initiating Parallel DNS resolution of 1 host. at 15:32
+    Completed Parallel DNS resolution of 1 host. at 15:32, 0.01s elapsed
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Initiating Connect Scan at 15:32
+    Scanning ec2-54-94-200-76.sa-east-1.compute.amazonaws.com (54.94.200.76) [65535 ports]
+    Discovered open port 22/tcp on 54.94.200.76
+    Discovered open port 80/tcp on 54.94.200.76
+    Discovered open port 443/tcp on 54.94.200.76
+    Connect Scan Timing: About 7.34% done; ETC: 15:39 (0:06:31 remaining)
+    Connect Scan Timing: About 19.44% done; ETC: 15:37 (0:04:13 remaining)
+    Connect Scan Timing: About 34.39% done; ETC: 15:36 (0:02:54 remaining)
+    Connect Scan Timing: About 47.66% done; ETC: 15:36 (0:02:13 remaining)
+    Connect Scan Timing: About 60.36% done; ETC: 15:37 (0:01:57 remaining)
+    Connect Scan Timing: About 69.95% done; ETC: 15:37 (0:01:29 remaining)
+    Connect Scan Timing: About 80.31% done; ETC: 15:38 (0:01:11 remaining)
+    Connect Scan Timing: About 86.31% done; ETC: 15:38 (0:00:52 remaining)
+    Connect Scan Timing: About 92.12% done; ETC: 15:38 (0:00:32 remaining)
+    Completed Connect Scan at 15:39, 426.95s elapsed (65535 total ports)
+    Nmap scan report for ec2-54-94-200-76.sa-east-1.compute.amazonaws.com (54.94.200.76)
+    Host is up, received user-set (0.19s latency).
+    Scanned at 2016-01-16 15:32:07 UTC for 427s
+    Not shown: 65532 filtered ports
+    Reason: 65532 no-responses
+    PORT    STATE SERVICE REASON
+    22/tcp  open  ssh     syn-ack
+    80/tcp  open  http    syn-ack
+    443/tcp open  https   syn-ack
+
+    Read data files from: /etc
+    Nmap done: 1 IP address (1 host up) scanned in 426.96 seconds
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 15:33 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Initiating Parallel DNS resolution of 1 host. at 15:33
+    Completed Parallel DNS resolution of 1 host. at 15:33, 0.00s elapsed
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Initiating Connect Scan at 15:33
+    Scanning ec2-54-183-204-205.us-west-1.compute.amazonaws.com (54.183.204.205) [65535 ports]
+    Discovered open port 22/tcp on 54.183.204.205
+    Connect Scan Timing: About 7.11% done; ETC: 15:41 (0:06:45 remaining)
+    Increasing send delay for 54.183.204.205 from 0 to 5 due to 11 out of 29 dropped probes since last increase.
+    Connect Scan Timing: About 12.29% done; ETC: 15:42 (0:07:15 remaining)
+    Connect Scan Timing: About 30.97% done; ETC: 15:43 (0:06:50 remaining)
+    Connect Scan Timing: About 37.35% done; ETC: 15:43 (0:06:19 remaining)
+    Connect Scan Timing: About 43.27% done; ETC: 15:44 (0:05:47 remaining)
+    Connect Scan Timing: About 49.19% done; ETC: 15:44 (0:05:14 remaining)
+    Connect Scan Timing: About 54.66% done; ETC: 15:44 (0:04:42 remaining)
+    Connect Scan Timing: About 60.13% done; ETC: 15:44 (0:04:09 remaining)
+    Connect Scan Timing: About 65.60% done; ETC: 15:44 (0:03:36 remaining)
+    Connect Scan Timing: About 71.05% done; ETC: 15:44 (0:03:03 remaining)
+    Connect Scan Timing: About 76.06% done; ETC: 15:44 (0:02:31 remaining)
+    Connect Scan Timing: About 81.50% done; ETC: 15:44 (0:01:57 remaining)
+    Connect Scan Timing: About 87.62% done; ETC: 15:45 (0:01:24 remaining)
+    Connect Scan Timing: About 93.42% done; ETC: 15:45 (0:00:48 remaining)
+    Completed Connect Scan at 15:46, 748.93s elapsed (65535 total ports)
+    Nmap scan report for ec2-54-183-204-205.us-west-1.compute.amazonaws.com (54.183.204.205)
+    Host is up, received user-set (0.0016s latency).
+    Scanned at 2016-01-16 15:33:51 UTC for 749s
+    Not shown: 65534 filtered ports
+    Reason: 65534 no-responses
+    PORT   STATE SERVICE REASON
+    22/tcp open  ssh     syn-ack
+
+    Read data files from: /etc
+    Nmap done: 1 IP address (1 host up) scanned in 748.94 seconds
+
+    Starting Nmap 7.01 ( https://nmap.org ) at 2016-01-16 15:33 UTC
+    Unable to find nmap-services!  Resorting to /etc/services
+    Initiating Parallel DNS resolution of 1 host. at 15:33
+    Completed Parallel DNS resolution of 1 host. at 15:33, 0.00s elapsed
+    Cannot find nmap-payloads. UDP payloads are disabled.
+    Initiating Connect Scan at 15:33
+    Scanning ec2-54-183-204-205.us-west-1.compute.amazonaws.com (54.183.204.205) [65535 ports]
+    Discovered open port 22/tcp on 54.183.204.205
+    Connect Scan Timing: About 7.11% done; ETC: 15:41 (0:06:45 remaining)
+    Increasing send delay for 54.183.204.205 from 0 to 5 due to 11 out of 29 dropped probes since last increase.
+    Connect Scan Timing: About 12.29% done; ETC: 15:42 (0:07:15 remaining)
+    Connect Scan Timing: About 30.97% done; ETC: 15:43 (0:06:50 remaining)
+    Connect Scan Timing: About 37.35% done; ETC: 15:43 (0:06:19 remaining)
+    Connect Scan Timing: About 43.27% done; ETC: 15:44 (0:05:47 remaining)
+    Connect Scan Timing: About 49.19% done; ETC: 15:44 (0:05:14 remaining)
+    Connect Scan Timing: About 54.66% done; ETC: 15:44 (0:04:42 remaining)
+    Connect Scan Timing: About 60.13% done; ETC: 15:44 (0:04:09 remaining)
+    Connect Scan Timing: About 65.60% done; ETC: 15:44 (0:03:36 remaining)
+    Connect Scan Timing: About 71.05% done; ETC: 15:44 (0:03:03 remaining)
+    Connect Scan Timing: About 76.06% done; ETC: 15:44 (0:02:31 remaining)
+    Connect Scan Timing: About 81.50% done; ETC: 15:44 (0:01:57 remaining)
+    Connect Scan Timing: About 87.62% done; ETC: 15:45 (0:01:24 remaining)
+    Connect Scan Timing: About 93.42% done; ETC: 15:45 (0:00:48 remaining)
+    Completed Connect Scan at 15:46, 748.93s elapsed (65535 total ports)
+    Nmap scan report for ec2-54-183-204-205.us-west-1.compute.amazonaws.com (54.183.204.205)
+    Host is up, received user-set (0.0016s latency).
+    Scanned at 2016-01-16 15:33:51 UTC for 749s
+    Not shown: 65534 filtered ports
+    Reason: 65534 no-responses
+    PORT   STATE SERVICE REASON
+    22/tcp open  ssh     syn-ack
+
+    Read data files from: /etc
+    Nmap done: 1 IP address (1 host up) scanned in 748.94 seconds
+
+
+
+
+find / -type f -perm -o+w -exec ls -alh {} \;
+find: `/etc/ssl/private': Permission denied
+-rw-rw-rw- 1 root root 0 Jan 16 15:54 /proc/sys/kernel/ns_last_pid
+find: `/proc/tty/driver': Permission denied
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/1/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/1/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/1/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/1/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/1/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/6/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/6/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/6/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/6/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/6/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/7/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/7/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/7/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/7/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/7/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/8/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/8/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/8/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/8/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/8/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/9/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/9/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/9/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/9/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/9/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/10/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/10/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/10/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/10/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/10/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/11/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/11/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/11/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/11/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/11/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/12/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/12/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/12/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/12/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/12/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/13/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/13/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/13/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/13/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/13/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/14/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/14/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/14/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/14/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/task/14/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/1/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/task/21/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/task/21/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/task/21/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/task/21/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/task/21/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/21/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/task/22/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/task/22/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/task/22/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/task/22/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/task/22/attr/sockcreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/22/attr/sockcreate
+find: `/proc/27/task/27/fd/6': No such file or directory
+find: `/proc/27/task/27/fdinfo/6': No such file or directory
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/task/27/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/task/27/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/task/27/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/task/27/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/task/27/attr/sockcreate
+find: `/proc/27/fd/6': No such file or directory
+find: `/proc/27/fdinfo/6': No such file or directory
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/attr/current
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/attr/exec
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/attr/fscreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/attr/keycreate
+-rw-rw-rw- 1 30025 root 0 Jan 16 15:54 /proc/27/attr/sockcreate
+find: `/root': Permission denied
+find: `/var/cache/ldconfig': Permission denied
